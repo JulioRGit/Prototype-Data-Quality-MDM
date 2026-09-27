@@ -8,7 +8,7 @@ import streamlit as st
 # Page Configuration & Theme-Adaptive Styling
 # ---------------------------------------------------------
 st.set_page_config(
-    page_title="PROTOTYPE Product Data Master Quality Cockpit",
+    page_title="PROTOTYPE PDM Quality Cockpit",
     page_icon="📦",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -381,7 +381,7 @@ summary_df = summary_df.sort_values(sort_field, ascending=True)
 # ---------------------------------------------------------
 # Top 3 High-Level KPIs
 # ---------------------------------------------------------
-st.title("📦 Product Master Data Quality Hub")
+st.title("📦 PROTOTYPE PDM Quality Cockpit")
 st.markdown("Automated completeness, consistency audit & remediation prioritization matrix.")
 
 total_products = len(df_raw)
